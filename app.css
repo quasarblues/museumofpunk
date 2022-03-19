@@ -1,0 +1,77 @@
+body {
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 400;
+    background-color: #e288cc;
+}
+
+
+h2 {
+    font-size: 5rem;;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+section {
+    margin-bottom: 75px;
+}
+
+footer {
+    background-color: black;
+    color: #f3eaf4;
+}
+
+#tickets {
+    margin-bottom: 0px;
+}
+
+#home {
+    margin-top: 90px;
+}
+
+.contact_brand {
+    color: #ff99c8;
+}
+
+.contact {
+    font-size: 1.8rem;
+}
+
+#mainNavbar {
+    background-color: black; 
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 2.0rem;
+    color: #ff99c8
+}
+
+#mainNavbar .nav-link {
+    color: #f3eaf4;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ff99c8;
+    transition: color 400ms;
+}
+
+#headingGroup h1 {
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    section {
+        margin-bottom: 50px;
+    }
+    p {
+        margin-bottom: 50px;
+    }
+    footer {
+        margin-top: 15px;
+    }
+}
